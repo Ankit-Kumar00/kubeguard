@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: insecure-app
+
+spec:
+  replicas: 1
+
+  template:
+    spec:
+      hostNetwork: true
+      hostPID: true
+      hostIPC: true
+
+      volumes:
+        - name: host-volume
+          hostPath:
+            path: /
+
+      containers:
+        - name: nginx
+          image: nginx:latest
+
+          securityContext:
+            privileged: true
+            runAsUser: 0
+            allowPrivilegeEscalation: true
+            readOnlyRootFilesystem: false

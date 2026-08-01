@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: vulnerable-app
+
+spec:
+  template:
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx
+          securityContext:
+            privileged: true
+            runAsUser: 0
