@@ -1099,17 +1099,39 @@ export default function App() {
               <div className="border-t border-[#27272a] pt-5 mt-3">
                 <div className="border-b border-[#27272a] pb-3">
                   <h2 className="text-sm font-bold uppercase tracking-wider text-white">Project Development Team</h2>
-                  <p className="text-[10px] text-slate-500 font-semibold uppercase tracking-wider mt-0.5">The students behind the KubeGuard platform</p>
+                  <p className="text-[10px] text-slate-500 font-semibold uppercase tracking-wider mt-0.5">The developers behind the KubeGuard platform</p>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-8 mt-5 justify-items-center">
-                  <div className="saas-card rounded-xl p-3 flex flex-col items-center max-w-xs w-full hover:border-indigo-500/40 transition overflow-hidden">
-                    <img src="/pradeep.png" alt="Pradeep Gurjar" className="w-full h-auto object-contain rounded-lg" />
+                <div className="grid md:grid-cols-2 gap-8 mt-6 justify-items-center">
+                  
+                  {/* Pradeep Gurjar Profile Card */}
+                  <div className="saas-card rounded-xl p-6 flex flex-col items-center max-w-sm w-full border border-[#27272a] bg-[#18181b] hover:border-indigo-500/50 hover:scale-[1.02] transition duration-300 shadow-xl">
+                    <div className="w-28 h-28 rounded-full border-2 border-emerald-500/80 overflow-hidden shadow-lg shadow-emerald-500/5 flex items-center justify-center bg-[#09090b]">
+                      <img src="/pradeep.png" alt="Pradeep Gurjar" className="w-full h-full object-cover" />
+                    </div>
+                    <h3 className="text-base font-extrabold text-emerald-400 mt-4 uppercase tracking-wider text-center">Pradeep Gurjar</h3>
+                    <p className="text-xs text-slate-300 text-center mt-2 font-medium tracking-wide">
+                      Cyber Security Student
+                    </p>
+                    <span className="text-[10px] text-slate-500 font-semibold uppercase tracking-wider mt-1 text-center bg-[#09090b] px-2.5 py-1 rounded border border-[#27272a]">
+                      SOC & Cloud Security Enthusiast
+                    </span>
                   </div>
 
-                  <div className="saas-card rounded-xl p-3 flex flex-col items-center max-w-xs w-full hover:border-indigo-500/40 transition overflow-hidden">
-                    <img src="/ankit.png" alt="Ankit Kumar Gurjar" className="w-full h-auto object-contain rounded-lg" />
+                  {/* Ankit Kumar Gurjar Profile Card */}
+                  <div className="saas-card rounded-xl p-6 flex flex-col items-center max-w-sm w-full border border-[#27272a] bg-[#18181b] hover:border-indigo-500/50 hover:scale-[1.02] transition duration-300 shadow-xl">
+                    <div className="w-28 h-28 rounded-full border-2 border-emerald-500/80 overflow-hidden shadow-lg shadow-emerald-500/5 flex items-center justify-center bg-[#09090b]">
+                      <img src="/ankit.png" alt="Ankit Kumar Gurjar" className="w-full h-full object-cover animate-fade-in" />
+                    </div>
+                    <h3 className="text-base font-extrabold text-emerald-400 mt-4 uppercase tracking-wider text-center">Ankit Kumar Gurjar</h3>
+                    <p className="text-xs text-slate-300 text-center mt-2 font-medium tracking-wide">
+                      Cyber Security Student
+                    </p>
+                    <span className="text-[10px] text-slate-500 font-semibold uppercase tracking-wider mt-1 text-center bg-[#09090b] px-2.5 py-1 rounded border border-[#27272a]">
+                      SOC & Cloud Security Enthusiast
+                    </span>
                   </div>
+
                 </div>
               </div>
             </div>
