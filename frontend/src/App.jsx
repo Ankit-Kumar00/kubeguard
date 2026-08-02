@@ -1107,7 +1107,7 @@ export default function App() {
                   {/* Pradeep Gurjar Profile Card */}
                   <div className="saas-card rounded-xl p-6 flex flex-col items-center max-w-sm w-full border border-[#27272a] bg-[#18181b] hover:border-indigo-500/50 hover:scale-[1.02] transition duration-300 shadow-xl">
                     <div className="w-28 h-28 rounded-full border-2 border-emerald-500/80 overflow-hidden shadow-lg shadow-emerald-500/5 flex items-center justify-center bg-[#09090b]">
-                      <img src="/pradeep.png" alt="Pradeep Gurjar" className="w-full h-full object-cover" />
+                      <img src="/pradeep.jpg" alt="Pradeep Gurjar" className="w-full h-full object-cover" />
                     </div>
                     <h3 className="text-base font-extrabold text-emerald-400 mt-4 uppercase tracking-wider text-center">Pradeep Gurjar</h3>
                     <p className="text-xs text-slate-300 text-center mt-2 font-medium tracking-wide">
@@ -1121,7 +1121,7 @@ export default function App() {
                   {/* Ankit Kumar Gurjar Profile Card */}
                   <div className="saas-card rounded-xl p-6 flex flex-col items-center max-w-sm w-full border border-[#27272a] bg-[#18181b] hover:border-indigo-500/50 hover:scale-[1.02] transition duration-300 shadow-xl">
                     <div className="w-28 h-28 rounded-full border-2 border-emerald-500/80 overflow-hidden shadow-lg shadow-emerald-500/5 flex items-center justify-center bg-[#09090b]">
-                      <img src="/ankit.png" alt="Ankit Kumar Gurjar" className="w-full h-full object-cover animate-fade-in" />
+                      <img src="/ankit.jpg" alt="Ankit Kumar Gurjar" className="w-full h-full object-cover animate-fade-in" />
                     </div>
                     <h3 className="text-base font-extrabold text-emerald-400 mt-4 uppercase tracking-wider text-center">Ankit Kumar Gurjar</h3>
                     <p className="text-xs text-slate-300 text-center mt-2 font-medium tracking-wide">
