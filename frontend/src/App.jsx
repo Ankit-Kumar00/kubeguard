@@ -1094,6 +1094,24 @@ export default function App() {
                   KubeGuard guidelines align with major industry policies: including the **CISA Kubernetes Hardening Guide**, **NSA Security Guidance**, and the **CIS Kubernetes Benchmark Profiles**. Hardening configs reduces workloads exploit surface areas by 80%.
                 </p>
               </div>
+
+              {/* Development Team */}
+              <div className="border-t border-[#27272a] pt-5 mt-3">
+                <div className="border-b border-[#27272a] pb-3">
+                  <h2 className="text-sm font-bold uppercase tracking-wider text-white">Project Development Team</h2>
+                  <p className="text-[10px] text-slate-500 font-semibold uppercase tracking-wider mt-0.5">The students behind the KubeGuard platform</p>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-8 mt-5 justify-items-center">
+                  <div className="saas-card rounded-xl p-3 flex flex-col items-center max-w-xs w-full hover:border-indigo-500/40 transition overflow-hidden">
+                    <img src="/pradeep.png" alt="Pradeep Gurjar" className="w-full h-auto object-contain rounded-lg" />
+                  </div>
+
+                  <div className="saas-card rounded-xl p-3 flex flex-col items-center max-w-xs w-full hover:border-indigo-500/40 transition overflow-hidden">
+                    <img src="/ankit.png" alt="Ankit Kumar Gurjar" className="w-full h-auto object-contain rounded-lg" />
+                  </div>
+                </div>
+              </div>
             </div>
           )}
 
