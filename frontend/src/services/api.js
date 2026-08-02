@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://kubeguard.onrender.com/api";
 
 // Scan YAML file or pasted text
 export async function scanYaml(source, fileName = "pasted_manifest.yaml") {
